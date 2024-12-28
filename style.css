@@ -371,7 +371,7 @@ a:hover{
     background-image: url('20240501_962.jpg');
     background-size: cover;
     background-position-y: center; /* very wide below bible verse */
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
 }
 
