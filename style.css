@@ -179,7 +179,7 @@ a:hover{
     justify-content: space-between;
 }
 .home-img{
-    background-image: url('20240501_603.jpg');
+    /*background-image: url('20240501_603.jpg');*/
     background-size: cover;
     background-position: center;
 }
@@ -188,14 +188,14 @@ a:hover{
     width: 100%;
     margin: 20px 0 0 0;
     height: 50vh;
-    background-image: url('20240501_603.jpg');
+    /*background-image: url('20240501_603.jpg');*/
 }
 #home-img-lg{
     display: block;
     height: 110vh;
     width: 50vw;
     background-position-x: -100px;
-    background-image: url('IMG_3977.jpeg');
+    background-image: url('IMG_3977.jpeg'); /* main top image */
     /*background-size: cover; /* Optional: Adjust this to control image scaling */
     /*background-repeat: no-repeat; /* Optional: Prevents tiling of the image */
 }
@@ -229,7 +229,7 @@ a:hover{
     margin: 8vh 0;
 }
 .timeline-img{
-    /*background-image: url('20240501_603.jpg');*/
+    background-image: url('20240501_603.jpg');
     height: 70vh;
     width: 30vw;
     background-position: center;
@@ -316,15 +316,15 @@ a:hover{
 .gallery-img:nth-child(1){
     background-image: url('20240501_156.jpg');
     background-position-x: right;
-    background-position-y: 75%; /* 3x left */
+    background-position-y: 70%; /* 3x left */
 }
 .gallery-img:nth-child(3){
     background-image: url('20240501_307.jpg');
-    background-position-y: 75%; /* 3x right */
+    background-position-y: bottom; /* 3x right */
 }
 .gallery-img:nth-child(2){
     background-image: url('20240501_831.jpg');
-    background-position-y: 75%; /* 3x middle */
+    background-position-y: 80%; /* 3x middle */
 }
 @media (max-width:1000px){
     .gallery{
@@ -426,7 +426,7 @@ a:hover{
     width: 40vw;
     background-image: url('20240501_892.jpg');
     background-size: cover;
-    background-position-y: 75%; /* bottom next to giving */
+    background-position-y: center; /* bottom next to giving */
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
 }
