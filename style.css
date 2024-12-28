@@ -229,7 +229,7 @@ a:hover{
     margin: 8vh 0;
 }
 .timeline-img{
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/chuck-842bb.appspot.com/o/GurAmanWed%2Fpic2.jpg?alt=media&token=7a0e5f94-d68e-4d32-bd3b-2a82b7acd40c);
+    background-image: url('20240501_603.jpg');
     height: 70vh;
     width: 30vw;
     background-position: center;
@@ -316,15 +316,15 @@ a:hover{
 .gallery-img:nth-child(1){
     background-image: url('20240501_156.jpg');
     background-position-x: right;
-    background-position-y: -20%; /* Shift up slightly */
+    background-position-y: 20%; /* Shift up slightly */
 }
 .gallery-img:nth-child(3){
     background-image: url('20240501_307.jpg');
-    background-position-y: -20%; /* Shift up slightly */
+    background-position-y: 20%; /* Shift up slightly */
 }
 .gallery-img:nth-child(2){
     background-image: url('20240501_831.jpg');
-    background-position-y: -20%; /* Shift up slightly */
+    background-position-y: 20%; /* Shift up slightly */
 }
 @media (max-width:1000px){
     .gallery{
@@ -370,7 +370,7 @@ a:hover{
     width: 100%;
     background-image: url('20240501_962.jpg');
     background-size: cover;
-    background-position-y: center;
+    background-position-y: 20%; /* Shift up slightly */
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -426,7 +426,7 @@ a:hover{
     width: 40vw;
     background-image: url('20240501_892.jpg');
     background-size: cover;
-    background-position-y: top;
+    background-position-y: 20%; /* Shift up slightly */
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
 }
