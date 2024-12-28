@@ -179,7 +179,7 @@ a:hover{
     justify-content: space-between;
 }
 .home-img{
-    background-image: url('IMG_3977.jpeg');
+    background-image: url('20240501_603.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -316,15 +316,15 @@ a:hover{
 .gallery-img:nth-child(1){
     background-image: url('20240501_156.jpg');
     background-position-x: right;
-    background-position-y: 50%; /* 3x left */
+    background-position-y: 75%; /* 3x left */
 }
 .gallery-img:nth-child(3){
     background-image: url('20240501_307.jpg');
-    background-position-y: 50%; /* 3x right */
+    background-position-y: 75%; /* 3x right */
 }
 .gallery-img:nth-child(2){
     background-image: url('20240501_831.jpg');
-    background-position-y: 50%; /* 3x middle */
+    background-position-y: 75%; /* 3x middle */
 }
 @media (max-width:1000px){
     .gallery{
@@ -370,7 +370,7 @@ a:hover{
     width: 100%;
     background-image: url('20240501_962.jpg');
     background-size: cover;
-    background-position-y: 50%; /* very wide below bible verse */
+    background-position-y: center; /* very wide below bible verse */
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -426,7 +426,7 @@ a:hover{
     width: 40vw;
     background-image: url('20240501_892.jpg');
     background-size: cover;
-    background-position-y: 50%; /* bottom next to giving */
+    background-position-y: 75%; /* bottom next to giving */
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
 }
