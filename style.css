@@ -370,8 +370,8 @@ a:hover{
     width: 100%;
     background-image: url('20240501_962.jpg');
     background-size: cover;
-    background-position-y: center; /* very wide below bible verse */
-    /*background-attachment: fixed;*/
+    background-position-y: bottom; /* very wide below bible verse */
+    background-attachment: fixed;
     background-repeat: no-repeat;
     /*transform: translateY(-10%); /* Adjust this value to shift the image */
 }
