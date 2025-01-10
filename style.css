@@ -300,43 +300,73 @@ a:hover{
 
 /* <===================GALLERY===================> */
 
-.gallery{
+.gallery {
     display: flex;
     padding: 20vh 0;
-    justify-content: center;
+    justify-content: flex-start; /* Adjust alignment for horizontal scrolling */
     align-items: center;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    gap: 10px; /* Space between images */
+    padding: 20vh 10px; /* Add horizontal padding for scroll area */
+    white-space: nowrap; /* Prevent wrapping of child elements */
 }
-.gallery-img{
+
+.gallery::-webkit-scrollbar {
+    height: 8px; /* Adjust scrollbar height for horizontal scrolling */
+}
+
+.gallery::-webkit-scrollbar-thumb {
+    background: #888; /* Scrollbar thumb color */
+    border-radius: 10px; /* Rounded scrollbar */
+}
+
+.gallery::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Scrollbar thumb hover color */
+}
+
+.gallery-img {
     width: 30vw;
     height: 30vw;
     margin: 10px;
     background-size: cover;
     background-position: center;
+    flex-shrink: 0; /* Prevent shrinking of images */
 }
-.gallery-img:nth-child(1){
+
+.gallery-img:nth-child(1) {
     background-image: url('20240501_156.jpg');
     background-position-x: right;
     background-position-y: 70%; /* 3x left */
 }
-.gallery-img:nth-child(3){
+
+.gallery-img:nth-child(3) {
     background-image: url('20240501_307.jpg');
     background-position-y: bottom; /* 3x right */
 }
-.gallery-img:nth-child(2){
+
+.gallery-img:nth-child(2) {
     background-image: url('20240501_831.jpg');
     background-position-y: 80%; /* 3x middle */
 }
-@media (max-width:1000px){
-    .gallery{
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-1.jpg');
+    background-position-y: bottom;
+}
+    
+@media (max-width: 1000px) {
+    .gallery {
         flex-direction: column;
         padding: 0;
+        overflow-x: hidden; /* Disable horizontal scrolling for smaller screens */
     }
-    .gallery-img{
+    .gallery-img {
         width: 100vw;
         height: 90vw;
         margin: 2px 0;
     }
-    .gallery-img:nth-child(2){
+    .gallery-img:nth-child(2) {
         position: relative;
         left: -(var(--horizontal-margin-spacing));
     }
