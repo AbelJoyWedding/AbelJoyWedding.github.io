@@ -603,10 +603,19 @@ a:hover{
 
 
 /* <===================PARTING MESSAGE===================> */
+.parting-message {
+    margin-top: 10vh; /* Ensure it's spaced below other elements */
+    text-align: center;
+    opacity: 1; /* Make sure it's fully visible */
+    transform: translateY(0); /* Remove any translate effect */
+    transition: none; /* Disable animations for testing */
+}
+/*
 .parting-message h1{
     margin-top: 10vh;
     text-align: center;
 }
+*/
 .parting-message button{
     margin:  10vh auto;
 }
