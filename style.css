@@ -412,7 +412,7 @@ a:hover{
 
 .gallery-img:nth-child(16) {
     background-image: url('Joy-14.jpg');
-    background-position-y: bottom;
+    background-position-y: top;
 }
 
 .gallery-img:nth-child(17) {
@@ -422,7 +422,7 @@ a:hover{
 
 .gallery-img:nth-child(18) {
     background-image: url('Joy-16.jpg');
-    background-position-y: bottom;
+    background-position-y: center;
 }
 
 .gallery-img:nth-child(19) {
@@ -432,7 +432,7 @@ a:hover{
 
 .gallery-img:nth-child(20) {
     background-image: url('Joy-18.jpg');
-    background-position-y: bottom;
+    background-position-y: center;
 }
 
 .gallery-img:nth-child(21) {
