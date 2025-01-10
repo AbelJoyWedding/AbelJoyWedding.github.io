@@ -531,6 +531,21 @@ a:hover{
     }
 }
 
+/* <===================GIVING===================> */
+
+.qr-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px 0; /* Add spacing between images */
+    display: block; /* Ensures the images are stacked */
+    cursor: pointer; /* Optional: Changes cursor to pointer */
+}
+
+.qr-image:hover {
+    transform: scale(1.05); /* Optional: Slight zoom effect on hover */
+    transition: transform 0.2s ease-in-out;
+}
+
 /* <===================REGISTRY===================> */
 
 #registry{
