@@ -354,6 +354,96 @@ a:hover{
     background-image: url('Joy-1.jpg');
     background-position-y: bottom;
 }
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-2.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-3.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-4.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-5.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-6.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-7.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-8.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-9.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-11.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-12.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-13.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-14.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-15.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-16.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-17.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-18.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-19.jpg');
+    background-position-y: bottom;
+}
+
+.gallery-img:nth-child(4) {
+    background-image: url('Joy-20.jpg');
+    background-position-y: bottom;
+}
     
 @media (max-width: 1000px) {
     .gallery {
@@ -403,7 +493,7 @@ a:hover{
 .hands{
     height: 120vh;
     width: 100%;
-    background-image: url('20240501_962.jpg');
+    background-image: url('Joy-10 compressed.jpg');
     background-size: cover;
     background-position-x: center; /* very wide below bible verse */
     background-position-y: center; /* very wide below bible verse */
