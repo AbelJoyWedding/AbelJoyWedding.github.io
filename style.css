@@ -357,21 +357,26 @@ a:hover{
     
 @media (max-width: 1000px) {
     .gallery {
-        flex-direction: column;
-        padding: 0;
-        overflow-x: hidden; /* Disable horizontal scrolling for smaller screens */
+        flex-direction: row; /* Keep the row layout for horizontal scrolling */
+        overflow-x: auto; /* Enable horizontal scrolling */
+        padding: 10px; /* Adjust padding for smaller screens */
+        gap: 5px; /* Reduce gap between images for smaller screens */
+        white-space: nowrap; /* Prevent wrapping of images */
     }
     .gallery-img {
-        width: 100vw;
-        height: 90vw;
-        margin: 2px 0;
+        width: 70vw; /* Adjust image size for smaller screens */
+        height: 70vw; /* Maintain square aspect ratio */
+        margin: 0 5px; /* Add small horizontal margins */
+        flex-shrink: 0; /* Prevent images from shrinking */
     }
+}
+/*
     .gallery-img:nth-child(2) {
         position: relative;
         left: -(var(--horizontal-margin-spacing));
     }
 }
-
+*/
 /* <===================QUOTE===================> */
 .quote{
     margin: 10vh 0;
