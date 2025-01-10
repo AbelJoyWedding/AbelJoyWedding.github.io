@@ -496,7 +496,7 @@ a:hover{
     background-image: url('Joy-10 compressed.jpg');
     background-size: cover;
     background-position-x: center; /* very wide below bible verse */
-    background-position-y: bottom; /* very wide below bible verse */
+    background-position-y: -20%; /* very wide below bible verse */
     /*background-attachment: fixed;*/
     background-repeat: no-repeat;
     /*transform: translateY(-10%); /* Adjust this value to shift the image */
