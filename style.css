@@ -173,22 +173,22 @@ a:hover{
 /* <===================SCROLL DOWN ARROW===================> */
 
 .scroll-down {
-    position: absolute; /* Position it relative to the viewport */
-    bottom: 20px; /* Adjust as needed */
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative; /* Ensure it stays within the flow of .container-in */
+    display: block; /* Make it appear on its own line */
+    margin: 20px auto 0; /* Add spacing above and center it horizontally */
     font-size: 2rem; /* Size of the arrow */
     color: #212121; /* Color of the arrow */
     cursor: pointer;
-    animation: bounce 2s infinite; /* Add a subtle bounce animation */
+    animation: bounce 2s infinite; /* Subtle bounce animation */
+    z-index: 10; /* Ensure it's above any overlapping elements */
 }
 
 @keyframes bounce {
     0%, 100% {
-        transform: translate(-50%, 0); /* Initial and final position */
+        transform: translateY(0); /* Initial and final position */
     }
     50% {
-        transform: translate(-50%, 10px); /* Move down slightly */
+        transform: translateY(10px); /* Move down slightly */
     }
 }
 
