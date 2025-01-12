@@ -170,6 +170,32 @@ a:hover{
     }
 }
 
+/* <===================SCROLL DOWN ARROW===================> */
+
+.scroll-down {
+    position: absolute; /* Position it relative to the viewport */
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem; /* Size of the arrow */
+    color: #212121; /* Color of the arrow */
+    cursor: pointer;
+    animation: bounce 2s infinite; /* Add a subtle bounce animation */
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translate(-50%, 0); /* Initial and final position */
+    }
+    50% {
+        transform: translate(-50%, 10px); /* Move down slightly */
+    }
+}
+
+.scroll-down:hover {
+    color: grey; /* Optional: Change color on hover */
+}
+
 /* <===================HOME===================> */
 
 .container-out{
