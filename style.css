@@ -191,7 +191,7 @@ a:hover{
     border-left: 20px solid transparent; /* Left triangle */
     border-right: 20px solid transparent; /* Right triangle */
     border-top: 20px solid #212121; /* Top triangle to form the "V" */
-    transform: rotate(180deg); /* Flip it into a "V" shape */
+    /*transform: rotate(180deg); /* Flip it into a "V" shape */
 }
 
 @keyframes bounce {
