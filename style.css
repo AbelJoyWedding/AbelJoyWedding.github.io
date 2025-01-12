@@ -176,11 +176,22 @@ a:hover{
     position: relative; /* Ensure it stays within the flow of .container-in */
     display: block; /* Make it appear on its own line */
     margin: 20px auto 0; /* Add spacing above and center it horizontally */
-    font-size: 2rem; /* Size of the arrow */
-    color: #212121; /* Color of the arrow */
+    width: 40px; /* Width of the arrow */
+    height: 20px; /* Height of the arrow */
+    /*font-size: 2rem; /* Size of the arrow */
+    /*color: #212121; /* Color of the arrow */
     cursor: pointer;
     animation: bounce 2s infinite; /* Subtle bounce animation */
-    z-index: 10; /* Ensure it's above any overlapping elements */
+    /*z-index: 10; /* Ensure it's above any overlapping elements */
+}
+
+.scroll-down .arrow {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent; /* Left triangle */
+    border-right: 20px solid transparent; /* Right triangle */
+    border-top: 20px solid #212121; /* Top triangle to form the "V" */
+    transform: rotate(180deg); /* Flip it into a "V" shape */
 }
 
 @keyframes bounce {
